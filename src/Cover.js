@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './Login.css';
+import './Cover.css';
 
 const team = {
 	name: 'Dodgers',
@@ -8,46 +8,55 @@ const team = {
 
 const teamList = [
 	{
+    name: 'Dodgers',
+    city: 'Los Angeles',
+    image: 'https://picsum.photos/300/300/?random[1]'
+  },
+  {
     name: 'Yankees',
-    city: 'NYC'
+    city: 'NYC',
+    image: 'https://picsum.photos/300/300/?random[2]'
   },
   {
     name: 'Mets',
-    city: 'NYC'
+    city: 'NYC',
+    image: 'https://picsum.photos/300/300/?random[3]'
   },
   {
     name: 'Rockies ',
-    city: 'Denver'
+    city: 'Denver',
+    image: 'https://picsum.photos/300/300/?random[4]'
   },
   {
     name: 'Red Sox',
-    city: 'Boston'
+    city: 'Boston',
+    image: 'https://picsum.photos/300/300/?random[5]'
   },
   {
     name: 'Astros',
-    city: 'Houston'
+    city: 'Houston',
+    image: 'https://picsum.photos/300/300/?random[6]'
   },
-	
 ]
 
 const displayTeamList = teamList.map((c, idx) => {
 	return(
-      <div id="child"  title="image55" className="hero-body">
-          <div className="container has-text-centered">
-            <div className="columns is-vcentered">
-              <div className="column is-5">
-                <figure className="image is-4by3">
+      <div title="image55" >
+          <div>
+            <div id="child">
+              <div>
+                <figure>
                   <img 
-                    src="https://picsum.photos/300/300/?random"
+                    src={c.image}
                     alt="Description"
                   />
                 </figure>
               </div>
-              <div className="column is-6 is-offset-1">
-                <h1 className="title is-2">
-                  <h1 id="Container" key={idx}>{c.name} {c.city}</h1>
+              <div>
+                <h1>
+                  <h1 key={idx}>{c.name} {c.city}</h1>
                   </h1>
-                <h2 className="subtitle is-4">
+                <h2>
 
                    </h2>
                 <br />
@@ -68,20 +77,9 @@ class Cover extends Component {
   render() {
     return (
       <section className="hero is-fullheight is-default is-bold">
-        <div>
+        <div id="container">
         {displayTeamList}
-        </div>
-        <div className="hero-foot">
-          <div className="container">
-            <div className="tabs is-centered">
-              <ul>
-                <li>
-                  <a>And this is the bottom</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        </div> 
       </section>
     );
   }

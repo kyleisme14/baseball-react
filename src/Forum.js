@@ -42,44 +42,7 @@ class Forum extends Component {
   render() {
     return (
 		<div>
-		  <nav className="navbar is-white topNav">
-			<div className="container">
-			  <div className="navbar-brand">
-				<a className="navbar-item" href="../">
-				  <img src="http://placekitten.com/112/30" width="112" height="28" alt="" />
-				</a>
-				<div className="navbar-burger burger" data-target="topNav">
-				  <span></span>
-				  <span></span>
-				  <span></span>
-				</div>
-			  </div>
-			  <div id="topNav" className="navbar-menu">
-				<div className="navbar-end">
-				  <div className="navbar-item">
-					<div className="field is-grouped">
-					  <p className="control">
-						<a className="button is-small">
-						  <span className="icon">
-							<i className="fa fa-user-plus"></i>
-						  </span>
-						  <span>Register</span>
-						</a>
-					  </p>
-					  <p className="control">
-						<a className="button is-small is-info is-outlined">
-						  <span className="icon">
-							<i className="fa fa-user"></i>
-						  </span>
-						  <span>Login</span>
-						</a>
-					  </p>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			</div>
-		  </nav>
+		
 		  <section className="container">
 			<div className="columns">
 			  <div className="column is-3">

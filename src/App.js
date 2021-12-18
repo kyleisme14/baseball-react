@@ -13,16 +13,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <FavoriteTeam />
-        <div id='container'>
-          <Cover />
-        </div>
-        <div id='container'>
-        <div id='box'><Login /></div>
-        <div id='box'><Contact /></div>
+        <div ><Login /></div>
+        <FavoriteTeam /> 
+        <div>
+        <div><Cover /></div>
+      
         
+        <div ><Contact /></div>
+        <div ><Forum /></div>
       </div>
-<div id='box'><Forum /></div>
       </div>
     )
   }
