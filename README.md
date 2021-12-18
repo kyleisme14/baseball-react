@@ -1,9 +1,9 @@
 
 cover page. thumbnails of each
-![image](./img/Screen Shot 2021-12-17 at 4.54.57 PM.png)
+![image](Screen Shot 2021-12-17 at 4.54.57 PM.png)
 
 favoriteteam page
-![image](./img/img/Screen Shot 2021-12-17 at 4.55.06 PM.png)
+![image](Screen Shot 2021-12-17 at 4.55.06 PM.png)
 
 
 # Getting Started with Create React App
