@@ -14,7 +14,7 @@
  - Cover 
 
  thumbnails of each
-![image](./public/Screen Shot 2021-12-17 at 4.54.57 PM.png)
+![image]('./public/Screen Shot 2021-12-17 at 4.54.57 PM.png')
 
 ```
 class Cover extends Component {
@@ -33,7 +33,7 @@ class Cover extends Component {
 
  - FavoriteTeam 
 
-![image](./public/Screen Shot 2021-12-17 at 4.55.06 PM.png)
+![image]('./public/Screen Shot 2021-12-17 at 4.55.06 PM.png')
 
 code snippet 
 ```
