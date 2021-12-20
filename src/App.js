@@ -12,7 +12,7 @@ import FavoriteTeam from './FavoriteTeam';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div title='App' className="App">
         <div ><Login /></div>
         <FavoriteTeam /> 
         <div>
